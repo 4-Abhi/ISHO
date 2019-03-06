@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+
+<body>
+    <!-- header -->
+    <header class="bg-dark">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg nabar-light nav-menu">
+            <div class="container my-2 p-1  ">
+                <a href="./index.html" class="navbar-brand">
+                    <!-- <h4 class=" logo">Amar Jyoti</h4> -->
+                    <img src="./asset/img/icon/Logo2.png" alt="logo">
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#mynav">
+                    <div class="bg-light line1"></div>
+                    <div class="bg-light line2"></div>
+                    <div class="bg-light line3"></div>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-uppercase" id="mynav">
+                    <ul class="navbar-nav">
+                        <!-- menu-item custom-class for custom-css -->
+                        <li class="nav-item list-item">
+                            <a href="./index.html" class="nav-link  m-2 menu-item">Home</a>
+                        </li>
+                        <li class="nav-item dropdown list-item">
+
+
+
+
+                            <a href="#" class="nav-link  m-2 menu-item" data-toggle="dropdown">About Us</a>
+                            <div class="dropdown-menu">
+                                <a href="./views/about/trustee.html" class="dropdown-item text-dark">Board of Trustess</a>
+                                <a href="./views/about/profile.html" class="dropdown-item text-dark">Brief Profile of Main
+                                    <br> Functionaries</a>
+                                <a href="./views/about/uma.html" class="dropdown-item text-dark">Professional Biography of
+                                    <br> Dr. Uma Tuli</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown list-item">
+                            <a href="#" class="nav-link    m-2 menu-item" data-toggle="dropdown">Activities</a>
+                            <div class="dropdown-menu">
+
+                                <a href="./views/activity/school.html" class="dropdown-item text-dark">Amar jyoti School</a>
+                                <a href="./views/activity/academic.html" class="dropdown-item text-dark"> Academics</a>
+                                <a href="./views/activity/medical.html" class="dropdown-item text-dark"> Medical Care</a>
+                                <a href="./views/activity/skill.html" class="dropdown-item text-dark">Skill Development Training</a>
+                                <a href="./views/activity/abilympics.html" class="dropdown-item text-dark">Abilympics</a>
+                                <a href="./views/activity/community.html" class="dropdown-item text-dark">Community Based Rehabilitation</a>
+                                <a href="./views/activity/social.html" class="dropdown-item text-dark">Social work Department</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown list-item">
+                            <a href="#" class="nav-link  m-2 menu-item " data-toggle="dropdown">Publication</a>
+                            <div class="dropdown-menu">
+                                <a href="./views/publication/film.html" class="dropdown-item text-dark">Video & films</a>
+                                <a href="./views/publication/publication.html" class="dropdown-item text-dark">Publications</a>
+                                <a href="#" class="dropdown-item text-dark">Photo Gallery</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown list-item">
+                            <a href="#" class="nav-link  m-2 menu-item" data-toggle="dropdown">Recognition</a>
+                            <div class="dropdown-menu">
+                                <a href="./views/recoginition/recognition.html" class="dropdown-item text-dark">Recognition & Award</a>
+                                <a href="./views/recoginition/partners.html" class="dropdown-item text-dark">Collaborating Partners</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown list-item">
+                            <a href="#" class="nav-link  m-2 menu-item" data-toggle="dropdown">News</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item text-dark">News & Events </a>
+                                <a href="./views/news/stories.html" class="dropdown-item text-dark">Success Stories</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item list-item">
+                            <a href="./views/help/help.html" class="nav-link  m-2 menu-item">Help</a>
+                        </li>
+                        <li class="nav-item list-item">
+                            <a href="./contact.html" class="nav-link  m-2 menu-item">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <div class="banner ">
+            <div class="container">
+                <div class="row text-center mx-auto">
+                    <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
+
+                        <h2 class="sentence my-5 py-5   mx-auto">
+                            <div class="slidingVertical  mx-auto">
+                                <h4 class="display-4 header-line justify-content-center">Everyone needs us to help.</h4>
+                                <h4 class="display-4 header-line justify-content-center">Join us now and make it easy</h4>
+                                <h4 class="display-4 header-line  justify-content-center"> We Can Help the world !</h4>
+
+                            </div>
+                        </h2>
+                        <p class="lead text-center text-dark font-weight-bold">Featuring the best design on the web Best of Blog Corporate CSS Design becoming like this is one
+                            of your goals here are some general pointers.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End of banner -->
+
+    </header>
+    <!-- End of Header -->
+
+    <!-- Sub banner -->
+    <section class="sub-banner">
+        <div class="container sub-container my-5">
+            <div class="row my-4 p-4">
+                <div class="col-lg-4 col-sm-12   col-md-10 world   ">
+                    <div>
+                        <a href="#">
+                            <i class="fas fa-globe-americas  globe "></i>
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Barrier free environment</h4>
+                        <p class="paragraph ">The entire campus is accessible to all. It has tactile path, ramps, loop induction and disabled friendly
+                            bus for school students. The President of India gave the National Award to Amar Jyoti Charitable
+                            Trust for creation of barrier free environment.</p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12  col-md-10 activity  ">
+                    <div>
+                        <a href="#">
+                            <i class="fas fa-users-cog user"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Activities at a Glance</h4>
+
+                        <p class="paragraph">
+
+                            We are happy to inform our friends that Amar Jyoti Charitable Trust will be organizing the 5th International Conference on
+                            Inclusive Education to be held at India International Centre, New Delhi, India from November
+                            28-30, 2018.
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12  col-md-10   gwalior">
+                    <div>
+                        <a href="#">
+
+                            <i class="fas fa-code-branch branch"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Branch in Gwalior</h4>
+                        <p class="paragraph">The entire campus is accessible to all. It has tactile path, ramps, loop nduction and disabled friendly
+                            bus for school students. The President of India gave the National Award to Amar Jyoti Charitable
+                            Trust for creation of barrier free environment.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="row  my-10 p-4 text-center ">
+                <div class="col">
+                    <h2 class="text-center text-warning">We Need You to Keep Helping</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt assumenda deleniti molestiae.</p>
+                </div>
+
+
+            </div>
+            <div class="row  my-10 p-4">
+                <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
+
+                    <img src="./asset/img/support/img1.jpg" alt="img" class="img-thumbnail">
+                    <h5 class="text-warning font-weight-light text-center mt-2">Building New Hospital</h5>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
+                    <img src="./asset/img/support/img2.jpg" alt="img" class="img-thumbnail">
+                    <h5 class="text-warning font-weight-light text-center mt-2">Building New Hospital</h5>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
+                    <img src="./asset/img/support/img3.jpg" alt="img" class="img-thumbnail">
+                    <h5 class="text-warning font-weight-light text-center mt-2">Building New Hospita</h5>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
+                    <img src="./asset/img/support/img4.png" alt="img" class="img-thumbnail">
+                    <h5 class="text-warning font-weight-light text-center mt-2">Building New Hospita</h5>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- aboutus -->
+    <section class="aboutus pb-5">
+        <div class="container">
+            <div class="row  ">
+                <div class="col my-5 pb-5 ">
+                    <h4 class="text-center text-light about-heading ">What People Said About Us</h4>
+                    <h2 class="sentence2 mb-5 pb-5   mx-auto py-sm-3">
+                        <div class="slidingVertical2  mx-auto">
+                            <p class="sliding-pera  ">Absolutely the best customer service I've experienced in 13 years of Web design. These guys helped
+                                work through a conflict that another plugin was causing, they stepped up to the plate and
+                                designed a solution!! LOVE YOU!!
+                                <br>
+                                <br>
+                                <span class="text-center text-light py-5  ">ISHO</span>
+                            </p>
+
+
+
+                        </div>
+                    </h2>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <!-- End of aboutus -->
+    <!-- blog -->
+    <section class="blog">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col my-5 p-4">
+                    <h4 class="text-center text-danger   text-uppercase">We Need You to Keep Helping</h4>
+                    <p class="text-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque tenetur commodi laudantium amet impedit.</p>
+
+                </div>
+
+            </div>
+            <div class="row  px-5">
+                <div class="col-md-10 col-sm-10 mx-auto col-lg-6">
+
+                    <div class="blogpost">
+                        <div class="part1">
+                            <img src="./asset/img/blog/blog1.png" alt="#" width="170" class="thumbnail mr-5 post1">
+                        </div>
+                        <div class="part2">
+                            <h4 class="">New Blog Post Style</h4>
+                            <p class="blog-pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam excepturi accusantium
+                                laudantium ullam natus pariatur consequuntur nemo nostrum atque.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-10  col-sm-10 mx-auto col-lg-6">
+
+                    <div class="blogpost">
+                        <div class="part1">
+                            <img src="./asset/img/blog/blog2.jpg" alt="#" width="170" class="thumbnail mr-5 post1">
+                        </div>
+                        <div class="part2">
+                            <h4>New Blog Post Style</h4>
+                            <p class="blog-pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam excepturi accusantium
+                                laudantium ullam natus pariatur consequuntur nemo nostrum atque.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End of blog -->
+
+    <!-- video  Section -->
+    <section class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col my-5 p-4">
+                    <h2 class="text-center text-dark  ">Watch The Video</h2>
+                    <p class="text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, suscipit necessitatibus! Atque voluptates
+                        tenetur numquam.</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6 mx-auto">
+                    <div class="video_section mx-auto">
+                        <video width="100%" controls class="mx-auto mb-5">
+                            <source src="./asset/video/- Backbone- YouTube.MKV" type="video/mp4">
+
+                        </video>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End of video section -->
+
+    <!-- Supporter -->
+    <section class="supporter">
+        <div class="container  mx-auto" width="60%">
+            <div class="row">
+                <div class="col my-5 p-4">
+                    <h2 class="text-center text-light">Our Awesome Supporters</h2>
+                    <p class="text-center text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quod?</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-8 mx-auto p-4 justify-content-center">
+                    <a href="#" class="m-auto">
+                        <img src="./asset/img/icon/1.png" alt="" class="img-fluid mb-5  d-block">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-8 mx-auto p-4 justify-content-center">
+                    <a href="#" class="m-auto">
+                        <img src="./asset/img/icon/2.png" alt="" class="img-fluid mb-5  d-block">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-8 mx-auto p-4 justify-content-center">
+                    <a href="#" class="m-auto">
+                        <img src="./asset/img/icon/3.png" alt="" class="img-fluid mb-5  d-block">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end of supporter -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-10 my-0 p-4 mx-auto">
+                    <h2 class="text-center text-dark">ISHO</h2>
+                    <p class="text-center text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium hic non quas, perspiciatis
+                        ducimus dolor ratione doloremque modi quia.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xs-12 text-center ">
+                    <ul class="list inline mx-auto p-0">
+                        <li class="list-inline-item mr-4">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="list-inline-item mr-4">
+                            <a href="./views/news/stories.html">News</a>
+                        </li>
+                        <li class="list-inline-item mr-4">
+                            <a href="./views/help/help.html">Help</a>
+                        </li>
+                        <li class="list-inline-item mr-4">
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <ul class="list-inline  mb-4 pl-0 icon">
+                        <li class="list-inline-item">
+                            <i class="fab fa-facebook-f   mb-4 text-center"></i>
+
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-twitter  mb-4 text-center"></i>
+
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-instagram   mb-4 text-center"></i>
+
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-youtube   mb-4 text-center"></i>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <h6 class="float-right">
+            <span>
+                <i class="far fa-copyright"></i>2018 www.isho.com All rights reserved</span>
+
+        </h6>
+    </footer>
+    <!-- End of footer -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
